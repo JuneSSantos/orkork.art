@@ -1,5 +1,5 @@
 let headerContent = `
-<a href="main.html">
+<a href="index.html">
                 <img src="images/buttons/homebutton.png" class="button"></a>
 <a href="gallery/gallerymain.html">
                 <img src="images/buttons/gallerybutton.png" class="button"></a>
