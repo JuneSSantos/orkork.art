@@ -1,0 +1,60 @@
+ body, html {
+	 margin: 0;
+	 padding: 0;
+ }
+
+ p {
+         font-family: Arial;
+         color: white;
+         font-size: 100%;
+ }
+
+ h1 {
+         font-family: Arial;
+         color: white;
+         font-size: 150%;
+         font-weight: bold;
+ }
+
+ .wrapper {
+         margin: 0 auto;
+         width: 1000px;
+ }
+
+ .menucontainer {
+         width: 1000px;
+         height: 140px;
+         outline: solid black 1px;
+	 background-image: url("images/backgrounds/mainheaderbanner.png");
+         background-position: -75% 40%;
+ }
+
+ .logo {
+         height: 140px;
+         margin-top: 0px;
+         margin-left: 225px;
+ }
+
+ .buttoncontainer {
+    text-align: center;
+    position: relative;
+    bottom: 141px;
+    left: 20px;
+    width: 150px;
+ }
+
+ .button {
+    display: block;
+    margin: 1px;
+ }
+
+ .button:hover {
+    box-shadow: 0 0 5px orange;
+    filter: brightness(125%);
+    width: 200px;
+ }
+    
+ .button:active {
+    box-shadow: 0 0 10px orange;
+    filter: brightness(155%);
+ }

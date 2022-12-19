@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+	 background-image: url("../images/backgrounds/mainpagebackground.png");
+	 background-size: auto;
+	 background-position: top;
+	 background-repeat: no-repeat;
+	 background-color: black;
+ }
+
+ .mainbody {
+	 background-color: rgba(0, 0, 0, 0.8);
+         position: relative;
+         top: 1px;
+         left: 0px;
+	 margin: auto;
+	 width: 1002px;
+	 height: 120vh;
+ }
+ 
+ .nsfw {
+	 background-image: url("images/canny.png");
+	 width: 350px;
+	 height: 100px;
+	 outline: solid red 1px;
+	 background-color: darkred;
+ }
+
+ .nsfw:hover {
+	 background-image: url("images/uncanny.png");
+	 box-shadow: 0 0 50px red;
+ }
+
+ .nsfw:active {
+	 background-image: url("images/veryuncanny.png");
+	 box-shadow: 0 0 100px red;
+ }
+
+ .sfw {
+	 background-image: url("images/sfwbanner.png");
+	 width: 350px;
+	 height: 100px;
+	 margin-right: 20px;
+	 outline: solid black 1px;
+	 background-color: orange;
+ }
+
+ .sfw:hover {
+	 box-shadow: 0 0 5px orange;
+	 filter: brightness(125%);
+ }
+
+ .sfw:active {
+	 box-shadow: 0 0 10px orange;
+	 filter: brightness(150%);
+ }
+
+ .categorieswrapper {
+	 display: flex;
+ }
+
+ div.categorieswrapper {
+	 flex: 1;
+	 position: relative;
+	 top: 42px;
+	 left: 145px;
+	 max-width: 750px;
+ }
+
+ .pickyourpoison {
+	 background-image: url("images/pickyourpoison.png");
+	 height: 100px;
+	 width: 350px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 position: relative;
+	 top: 20px;
+ }
+</style>
+<meta property="og:title" content="OrkOrk: Gallery" />
+<meta property="og:url" content="orkork.art" />
+<meta property="og:image" content="images/sitelogo.png" />
+<meta property="og:description" content="Check out the art I made!" />
+<title>OrkOrk: Gallery</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+<body>
+<div class="wrapper">
+<div class="menucontainer">
+<div class="listcontainer">
+<a href="../main.html">
+		<img src="../images/favicon.png" class="logo"></a>
+
+<div id="buttoncontainer" class="buttoncontainer">
+</div>
+
+<script src="../js/menubuttons2.js"></script>
+</div>
+</div>
+</div>
+
+<div class="mainbody">
+	<div class="pickyourpoison"></div>
+	<div class="categorieswrapper">
+	<a href="gallerysfw.html">
+		<div class="sfw"></div></a>
+	<a href="gallerynsfw.html">
+		<div class="nsfw"></div></a>
+	</div>
+</div>
+</body>
+</html>
