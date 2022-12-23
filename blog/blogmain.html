@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ body {
+	 background-image: url("../images/backgrounds/mainpagebackground.png");
+	 background-size: auto;
+	 background-position: top;
+	 background-repeat: no-repeat;
+	 background-color: black;
+ }
+
+ .mainbody {
+	 background-color: rgba(0, 0, 0, 0.8);
+         position: relative;
+         top: 1px;
+         left: 0px;
+	 margin: auto;
+	 width: 1002px;
+	 height: 120vh;
+ }
+ 
+ .thumbnailwrapper {
+	 display: flex;
+ }
+
+ div.thumbnailwrapper {
+	 flex: 1;
+	 position: relative;
+	 top: 34px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 max-width: 924px;
+ }
+
+ .pickyourpoison {
+	 background-image: url("../gallery/images/pickyourpoison.png");
+	 height: 100px;
+	 width: 350px;
+         margin-left: auto;
+	 margin-right: auto;
+	 position: relative;
+	 top: 20px;
+ }
+
+ .thumbnail {
+	 height: 225px;
+	 width: 225px;
+         outline: solid black 1px;
+	 margin-right: 8px;
+ }
+
+ .thumbnail:hover {
+	 box-shadow: 0 0 5px orange;
+	 filter: brightness(125%);
+ }
+
+ .thumbnail:active {
+	 box-shadow: 0 0 10px orange;
+	 filter: brightness (150%);
+ }
+</style>
+<meta property="og:title" content="OrkOrk: Blog" />
+<meta property="og:url" content="orkork.art" />
+<meta property="og:image" content="images/sitelogo.png" />
+<meta property="og:description" content="Where stuff is written" />
+<title>OrkOrk: Blog</title>
+<link rel="stylesheet" href="../style.css">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+</head>
+<body>
+<div class="wrapper">
+<div class="menucontainer">
+<div class="listcontainer">
+<a href="../index.html">
+		<img src="../images/favicon.png" class="logo"></a>
+
+<div id="buttoncontainer" class="buttoncontainer">
+</div>
+
+<script src="../js/menubuttons2.js"></script>
+</div>
+</div>
+</div>
+
+<div class="mainbody">
+	<div class="pickyourpoison"></div>
+<p style="text-align:center;margin-top:35px;">You can't pick your poison yet, since this shit empty, sorry :(</p>
+</div>
+</body>
+</html>

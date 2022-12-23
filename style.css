@@ -24,6 +24,8 @@
  .menucontainer {
          width: 1000px;
          height: 140px;
+         margin-right: auto;
+         margin-left: auto;
          outline: solid black 1px;
 	 background-image: url("images/backgrounds/mainheaderbanner.png");
          background-position: -75% 40%;
