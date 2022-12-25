@@ -31,10 +31,13 @@
          background-position: -75% 40%;
  }
 
+ .logocontainer {
+         position: relative;
+         left: 230px;
+ }
+
  .logo {
          height: 140px;
-         margin-top: 0px;
-         margin-left: 225px;
  }
 
  .buttoncontainer {
