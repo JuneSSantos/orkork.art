@@ -17,7 +17,7 @@
 	 left: 0px;
 	 margin: auto;
 	 width: 1002px;
-	 height: 1146px;
+	 height: 1400px;
  }
 
  .prices {
@@ -27,9 +27,7 @@
 	 height: 290px;
 	 box-shadow: 0 0 0 1pt black;
 	 border-radius: 10px;
-	 position: relative;
-	 left: 25px;
-	 bottom: 998px;
+	 margin-bottom: 20px;
  }
 
  .pricestext {
@@ -47,29 +45,12 @@
 	 height: 400px;
 	 box-shadow: 0 0 0 1pt black;
 	 border-radius: 10px;
-	 position: relative;
-	 left: 25px;
-	 bottom: 998px;
- }
-
- .thumbnailwrapper {
-	 display: flex;
- }
-
- div.thumbnailwrapper {
-	 flex: 1;
-	 position: relative;
-	 bottom: 12px;
-	 left: 515px;
-	 max-width: 465px;
  }
 
  .thumbnail {
          width: 225px;
          height: 225px;
 	 outline: solid black 1px;
-         margin-right: 5px;
-         margin-bottom: 5px;
  }
 
  .thumbnail:hover {
@@ -80,6 +61,24 @@
  .thumbnail:active {
 	 box-shadow: 0 0 10px orange;
 	 filter: brightness(125%);
+ }
+
+ .container1 {
+	 display: flex;
+         flex-direction: column;
+	 width: 400px;
+         position: relative;
+	 left: 38px;
+ }
+
+ .container2 {
+	 display: flex;
+         flex-wrap: wrap;
+	 width: 460px;
+	 height: 460px;
+	 position: relative;
+	 left: 10px;
+	 gap: 5px;
  }
 </style>
 <meta property="og:title" content="OrkOrk.art: Comissions" />
@@ -108,31 +107,15 @@
 
 <div class="mainbody">
 
-	<div style="position:relative;top:15px;text-align:center;">
+
+<div style="position:relative;top:5px;text-align:center;">
 		<img src="images/comtitle.png" width=400></div>
 
-	<h1 style="text-align:center;position:relative;left:245px;top:0px;">Examples</h1>
+<img src="images/comsketch.png" width=360 style="float:right;position:relative;top:10px;right:100px;">
 
-	<div class="thumbnailwrapper">
-		<div class="thumbnail">
-			<a href="../gallery/pages/sfw/CorporalCake.html">
-				<img src="../gallery/images/sfw/thumbs/CorporalCakeThumb.png" class="thumbnail"></div></a>
-
-		<div class="thumbnail">
-			<a href="../gallery/pages/sfw/SpookySexy.html">
-				<img src="../gallery/images/sfw/thumbs/SpookySexyThumb.png" class="thumbnail"></div></a>
-	</div>
-
-        <div class="thumbnailwrapper">
-		<div class="thumbnail">
-			<a href="../gallery/pages/sfw/BombchuGirl.html">
-				<img src="../gallery/images/sfw/thumbs/BombchuGirlThumb.png" class="thumbnail"></div></a>
-	</div>
-
-	<img src="images/comsketch.png" width=250 style="position:relative;left:620px;top:0px;">
-
+<div class="container1">
 	<div class="prices">
-		<h1 style="text-align:center;">Prices</h1>
+		<h1 style="text-align:center;margin-top:2px;">Prices</h1>
 
 		<p class="pricestext">Sketch: 15 USD<br>
 		Headshots/PFPs: 24 USD<br>
@@ -149,7 +132,7 @@
 	</div>
 
 	<div class="contactinfo">
-		<h1 style="text-align:center;">Rules</h1>
+		<h1 style="text-align:center;margin-top:2px;">Rules</h1>
 
 		<h1 style="text-align:center;color:lime;">Will Do</h1>
 		<p style="text-align:center;">Pretty much everything, both SFW and NSFW</p>
@@ -165,6 +148,22 @@
 		<a href="https://paypal.me/OrkBRR?country.x=AU&locale.x=en_AU" target="_blank">
 			<p style="text-align:center;font-size:300%;color:dodgerblue;position:relative;bottom:52px;">PayPal</p></a>
 	</div>
+</div>
+
+	<h1 style="text-align:center;position:relative;right:265px;">Examples</h1>
+	<div class="container2">
+		<div class="thumbnail">
+			<a href="../gallery/pages/sfw/CorporalCake.html">
+				<img src="../gallery/images/sfw/thumbs/CorporalCakeThumb.png" class="thumbnail"></div></a>
+
+		<div class="thumbnail">
+			<a href="../gallery/pages/sfw/SpookySexy.html">
+				<img src="../gallery/images/sfw/thumbs/SpookySexyThumb.png" class="thumbnail"></div></a>
+		<div class="thumbnail">
+			<a href="../gallery/pages/sfw/BombchuGirl.html">
+				<img src="../gallery/images/sfw/thumbs/BombchuGirlThumb.png" class="thumbnail"></div></a>
+	</div>
+</div>
 </div>
 </body>
 </html>
