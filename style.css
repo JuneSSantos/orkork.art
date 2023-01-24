@@ -27,7 +27,7 @@
          margin-right: auto;
          margin-left: auto;
          outline: solid black 1px;
-	 background-image: url("images/backgrounds/mainheaderbanner.png");
+         background-image: url("images/backgrounds/mainheaderbanner.png");
          background-position: -75% 40%;
  }
 
@@ -40,7 +40,7 @@
          height: 140px;
  }
 
- .buttoncontainer {
+  .buttoncontainer {
     text-align: center;
     position: relative;
     bottom: 141px;
@@ -62,4 +62,26 @@
  .button:active {
     box-shadow: 0 0 10px orange;
     filter: brightness(155%);
+ }
+
+ .dropmenu1 {
+	 position: relative;
+ }
+
+ .dropmenu1-content {
+	 display: none;
+	 position: relative;
+	 z-index: 1;
+	 bottom: 35px;
+	 left: 201px;
+ }
+
+ .dropmenu1:hover .dropmenu1-content {
+	 display: flex;
+ }
+
+ .dropbutton:hover {
+	 position: relative;
+	 right: 50px;
+	 top: 8px;
  }
