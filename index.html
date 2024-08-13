@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<style>
+
+ body {
+	 display: flex;
+	 background-color: black;
+	 margin: auto;
+ }
+
+
+ .mainbody {
+	 display: flex;
+	 position: relative; top: 165px;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 margin: auto;
+	 width: 650px;
+	 height: 500px;
+ }
+
+ .logo {
+	 transform: scale(60%);
+	 position: relative;
+	 animation-name: logo;
+	 animation-duration: 1s;
+	 animation-iteration-count: 1;
+ }
+
+ @keyframes logo {
+	 0% {opacity: 0%; top: 150px; filter: brightness(1000%) contrast(0%); transform: scale(150%);}
+	 50% {opacity: 100%; top: 0px; filter: brightness(1000%) contrast(0%);}
+	 70% {filter: brightness(1000%) contrast(0%); transform: scale(100%);}
+	 75% {filter: brightness(100%) contrast(100%); transform: scale(150%);}
+	 100% {filter: brightness(100%) contrast(100%); transform: scale(60%);}
+ }
+
+ .logotext {
+	 display: flex;
+	 justify-content: center;
+	 font-family: arial;
+	 font-weight: bold;
+	 width: auto;
+	 height: auto;
+	 position: relative; bottom: 98px;
+	 text-align: center;
+	 color: white;
+	 opacity: 0%;
+	 font-size: 125%;
+	 animation-name: logotext;
+	 animation-duration: 1s;
+	 animation-delay: 1s;
+	 animation-fill-mode: forwards;
+ }
+
+ @keyframes logotext {
+	 0% {opacity: 0%;}
+	 100% {opacity: 100%;}
+ }
+
+ .buttonscontainer {
+	 display: flex;
+	 position: relative; bottom: 100px;
+	 justify-content: center;
+	 align-items: center;
+	 flex-direction: row;
+	 margin: auto;
+	 gap: 25px;
+	 width: 550px;
+	 height: 55px;
+	 flex-shrink: 0;
+	 opacity: 0%;
+	 animation-name: buttonscontainer;
+	 animation-duration: 1s;
+	 animation-delay: 1s;
+	 animation-fill-mode: forwards;
+ }
+
+ @keyframes buttonscontainer {
+	 0% {opacity: 0%;}
+	 100% {opacity: 100%;}
+ }
+
+ .button {
+	 display: flex;
+	 flex: 1;
+	 width: 150px;
+	 height: 55px;
+	 text-align: center;
+	 justify-content: center;
+	 align-items: center;
+	 font-family: arial;
+	 font-weight: bold;
+	 color: black;
+	 font-size: 165%;
+	 animation-name: button;
+	 animation-duration: 1s;
+	 outline: solid white 1px;
+	 background-color: white;
+	 transition: 0.1s;
+ }
+
+ .button:hover {
+	 animation-name: buttonhover;
+	 transform: scale(155%);
+	 transition: 0.1s;
+ }
+
+ .button:active {
+	 box-shadow: 0 0 10px white;
+	 animation-name: buttonactive;
+	 transform: scale(160%);
+	 transition: 0.1s;
+ }
+
+</style>
+<title>OrkOrk.com</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta property="og:title" content="OrkOrk.com" />
+<meta property="og:image" content="images/favicon.png" />
+<meta property="og:description" content="This is just a test, by the way." />
+	</head>
+	<body>
+
+		<div class="mainbody">
+			<img src="images/logo.png" class="logo">
+			<div class="logotext">
+				<p>Digital Artist - Graffiti Artist - Musician<br>
+				Overall Great Guy</p></div>
+			<div class="buttonscontainer">
+				<div class="button" style="background-color:gray;"><p>Coming Soon</p></div>
+				<a href="contact.html"><div class="button"><p style="color:black;">Contact & Work</p></div></a>
+				<div class="button" style="background-color:gray;"><p>Coming Soon</p></div>
+				</div>
+		</div>
+
+	</body>
+</html>

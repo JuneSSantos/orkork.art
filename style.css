@@ -1,0 +1,14 @@
+ a p, a:link, a:visited {
+	 color: white;
+	 text-decoration: none;
+ }
+
+ a:hover p, a:hover span{
+	 color: white;
+	 text-decoration: underline;
+ }
+
+ a:active p, a:active span {
+	 color: white;
+	 text-decoration: underline;
+ }
